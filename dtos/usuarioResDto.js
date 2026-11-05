@@ -1,5 +1,5 @@
  module.exports = {
-    fromEntify: (usuario) => {
+    fromEntity: (usuario) => {
         return {
             id: usuario.id,
             email: usuario.email,
